@@ -19,7 +19,7 @@
   <body>
     <header>
       <!-- navbar part start -->
-      <section class="container mx-auto">
+      <section class="container mx-auto max-w-[1440px]">
         <div class="navbar bg-base-100 pt-14">
           <div class="navbar-start">
             <h2 class="raleway text-4xl text-[#030712] font-extrabold">
@@ -51,46 +51,118 @@
       <!-- navbar part end -->
 
       <!-- banner part start -->
-      <section class="container mx-auto mt-8 ">
-         <div
-          class="bg-[url('images/banner.png')] bg-cover bg-no-repeat   bg-center   h-[700px] rounded-3xl">
-            <div class="flex flex-col justify-center items-center  h-full">
-              <h1 class="raleway text-[#FFF] text-6xl font-extrabold text-center leading-[86px]">End-to-End Travel with <br>
-                 <span class="text-[#1DD100]">P Paribahan</span></h1>
-              <p class="inter text-[#FFF] text-xl font-normal leading-8 text-center pt-4">Yes, you can run unit tests and view the results directly within the app. The <br> integrated testing features allow for a streamlined .</p>
-              <div class="pt-8">
-                <button class="btn bg-[#1DD100] border-none"><a class="raleway text-xl font-bold" href="#">Buy Tickets</a></button>
-              </div>
+      <section class="container mx-auto mt-8 max-w-[1440px]">
+        <div
+          class="bg-[url('images/banner.png')] bg-cover bg-no-repeat bg-bottom h-[700px] rounded-3xl"
+        >
+          <div class="flex flex-col justify-center items-center h-full">
+            <h1
+              class="raleway text-[#FFF] text-6xl font-extrabold text-center leading-[86px]"
+            >
+              End-to-End Travel with <br />
+              <span class="text-[#1DD100]">P Paribahan</span>
+            </h1>
+            <p
+              class="inter text-[#FFF] text-xl font-normal leading-8 text-center pt-4"
+            >
+              Yes, you can run unit tests and view the results directly within
+              the app. The <br />
+              integrated testing features allow for a streamlined .
+            </p>
+            <div class="pt-8">
+              <button class="bg-[#1DD100] border-none px-8 py-5 rounded-xl">
+                <a class="raleway text-xl font-bold" href="#">Buy Tickets</a>
+              </button>
             </div>
+          </div>
         </div>
 
         <div class="flex justify-around relative top-[-70px]">
-          <div class="flex items-center gap-4 bg-[#FFF] w-[308px] rounded-2xl p-8 border-3 border-b-4 border-[#1DD100]">
-            <div><img src="images/people.png" alt="people.png"></div>
+          <div
+            class="flex items-center gap-4 bg-[#FFF] w-[308px] rounded-2xl p-8 border-3 border-b-4 border-[#1DD100]"
+          >
+            <div><img src="images/people.png" alt="people.png" /></div>
             <div>
-              <h4>500K+</h4>
-              <p>Registered users</p>
+              <h4 class="inter text-4xl font-bold text-[#030712]">500K+</h4>
+              <p class="inter text-xl font-normal text-[#03071299]">
+                Registered users
+              </p>
             </div>
           </div>
-          <div class="flex items-center gap-4 bg-[#FFF] w-[308px] rounded-2xl p-8 border-3 border-b-4 border-[#1DD100]">
-            <div><img src="images/people.png" alt="people.png"></div>
+          <div
+            class="flex items-center gap-4 bg-[#FFF] w-[308px] rounded-2xl p-8 border-3 border-b-4 border-[#1DD100]"
+          >
             <div>
-              <h4>500K+</h4>
-              <p>Registered users</p>
+              <img src="images/ticket-cupon.png" alt="ticket-cupon.png" />
+            </div>
+            <div>
+              <h4 class="inter text-4xl font-bold text-[#030712]">1.7 lacks</h4>
+              <p class="inter text-xl font-normal text-[#03071299]">
+                Tickets sold
+              </p>
             </div>
           </div>
-          <div class="flex items-center gap-4 bg-[#FFF] w-[308px] rounded-2xl p-8 border-3 border-b-4 border-[#1DD100]">
-            <div><img src="images/people.png" alt="people.png"></div>
+          <div
+            class="flex items-center gap-4 bg-[#FFF] w-[308px] rounded-2xl p-8 border-3 border-b-4 border-[#1DD100]"
+          >
+            <div><img src="images/stoppage.png" alt="stoppage.png" /></div>
             <div>
-              <h4>500K+</h4>
-              <p>Registered users</p>
+              <h4 class="inter text-4xl font-bold text-[#030712]">80K+</h4>
+              <p class="inter text-xl font-normal text-[#03071299]">
+                Rental partners
+              </p>
             </div>
           </div>
         </div>
       </section>
       <!-- banner part end -->
     </header>
-    <main></main>
+    <main>
+      <!-- best offer part start-->
+      <section class="container mx-auto max-w-[1440px] mt-32">
+        <div>
+          <h1 class="raleway text-[#030712] text-center text-4xl font-bold ">Best offers for you</h1>
+
+          <div class="flex justify-between mt-12">
+            <!-- cupon card 1-->
+            <div class="bg-[#FFBF0F]  flex justify-around rounded-2xl">
+              <div class="p-9 flex flex-col justify-center">
+                <h4 class="inter text-4xl text-[#030712CC] font-black">15% OFF</h4>
+                <p class="inter text-xl text-[#030712CC] font-semibold py-2">on your next purchase</p>
+                <p class="inter text-xl text-[#03071280] font-medium">use by January 2024</p>
+              </div>
+              <div class="relative left-5">
+                <img src="images/cupon-devider.png" alt="cupon-devider.png" />
+              </div>
+              <div class="p-12 flex flex-col justify-center">
+                <h4 class="raleway text-4xl text-[#030712] font-bold">NEW15</h4>
+                <p class="raleway text-xl text-[#03071280] font-medium">Coupon Code</p>
+              </div>
+            </div>
+            <!-- cupon card 2-->
+            <div class="bg-[#F78C9C]   flex justify-around rounded-2xl">
+              <div class="p-9 flex flex-col justify-center">
+                <h4 class="inter text-4xl text-[#030712CC] font-black">20% OFF</h4>
+                <p class="inter text-xl text-[#030712CC] font-semibold py-2">on your next purchase</p>
+                <p class="inter text-xl text-[#03071280] font-medium">use by January 2024</p>
+              </div>
+              <div class="relative left-5">
+                <img src="images/cupon-devider.png" alt="cupon-devider.png" />
+              </div>
+              <div class="p-12 flex flex-col justify-center">
+                <h4 class="raleway text-4xl text-[#030712] font-bold">Couple 20</h4>
+                <p class="raleway text-xl text-[#03071280] font-medium">Coupon Code</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="flex justify-center mt-16">
+            <button class="px-8 py-5 border-2 border-[#1DD100] rounded-xl"><a class="raleway text-xl font-bold text-[#1DD100]" href="#">See All Offers</a></button>
+          </div>
+        </div>
+      </section>
+      <!-- best offer part end-->
+    </main>
     <footer></footer>
 
     <script src="js/main.js"></script>
